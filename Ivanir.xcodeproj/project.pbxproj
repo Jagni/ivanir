@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17090EF11D7F8AB100ACDF06 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EF01D7F8AB100ACDF06 /* ConnectionHelper.swift */; };
+		17090EF31D7F908A00ACDF06 /* RiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EF21D7F908A00ACDF06 /* RiddleViewController.swift */; };
+		17090EF81D7F9F2700ACDF06 /* RevealedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EF71D7F9F2700ACDF06 /* RevealedViewController.swift */; };
+		17090EFA1D7FAD7E00ACDF06 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EF91D7FAD7E00ACDF06 /* PhotoViewController.swift */; };
+		17090EFC1D7FB76C00ACDF06 /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EFB1D7FB76C00ACDF06 /* CustomPhotoAlbum.swift */; };
+		17090EFE1D7FBE3A00ACDF06 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17090EFD1D7FBE3A00ACDF06 /* AudioViewController.swift */; };
+		174616761D804C5E00B5F759 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 174616741D804C5D00B5F759 /* AmaticSC-Bold.ttf */; };
+		174616771D804C5E00B5F759 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 174616751D804C5E00B5F759 /* AmaticSC-Regular.ttf */; };
+		175D01711D80CE65009FB355 /* Hihihi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 175D01701D80CE65009FB355 /* Hihihi.m4a */; };
+		178E37A41D6BB85100A8BE83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E37A31D6BB85100A8BE83 /* AppDelegate.swift */; };
+		178E37AB1D6BB85100A8BE83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E37A91D6BB85100A8BE83 /* Main.storyboard */; };
+		178E37AD1D6BB85200A8BE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178E37AC1D6BB85200A8BE83 /* Assets.xcassets */; };
+		178E37B01D6BB85200A8BE83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E37AE1D6BB85200A8BE83 /* LaunchScreen.storyboard */; };
+		17AD9E3E1D6CAB5700A9E5CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17AD9E3D1D6CAB5700A9E5CE /* GoogleService-Info.plist */; };
+		62A201E608EC08690F732591 /* Pods_Ivanir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738583CCC9B5C3BE5C0C6B99 /* Pods_Ivanir.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17090EF01D7F8AB100ACDF06 /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
+		17090EF21D7F908A00ACDF06 /* RiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiddleViewController.swift; sourceTree = "<group>"; };
+		17090EF71D7F9F2700ACDF06 /* RevealedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealedViewController.swift; sourceTree = "<group>"; };
+		17090EF91D7FAD7E00ACDF06 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		17090EFB1D7FB76C00ACDF06 /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
+		17090EFD1D7FBE3A00ACDF06 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		174616741D804C5D00B5F759 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		174616751D804C5E00B5F759 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		175D01701D80CE65009FB355 /* Hihihi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hihihi.m4a; sourceTree = "<group>"; };
+		175D01721D80E442009FB355 /* Ivanir-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ivanir-Bridging-Header.h"; sourceTree = "<group>"; };
+		178E37A01D6BB85100A8BE83 /* Ivanir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ivanir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178E37A31D6BB85100A8BE83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178E37AA1D6BB85100A8BE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178E37AC1D6BB85200A8BE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178E37AF1D6BB85200A8BE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178E37B11D6BB85200A8BE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AD9E3D1D6CAB5700A9E5CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17CC22EE1DA6F025006E0084 /* Ivanir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ivanir.entitlements; sourceTree = "<group>"; };
+		738583CCC9B5C3BE5C0C6B99 /* Pods_Ivanir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ivanir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77AB96BB1FDCBB9BB148097 /* Pods-Ivanir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ivanir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ivanir/Pods-Ivanir.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B716C016478EDEAB181142 /* Pods-Ivanir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ivanir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ivanir/Pods-Ivanir.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178E379D1D6BB85100A8BE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A201E608EC08690F732591 /* Pods_Ivanir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17090EF41D7F989D00ACDF06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17090EFB1D7FB76C00ACDF06 /* CustomPhotoAlbum.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		178E37971D6BB85100A8BE83 = {
+			isa = PBXGroup;
+			children = (
+				178E37A21D6BB85100A8BE83 /* Ivanir */,
+				178E37A11D6BB85100A8BE83 /* Products */,
+				B135CEAB9D0629555A725577 /* Pods */,
+				3980F26341BFC7A25477D8A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		178E37A11D6BB85100A8BE83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178E37A01D6BB85100A8BE83 /* Ivanir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178E37A21D6BB85100A8BE83 /* Ivanir */ = {
+			isa = PBXGroup;
+			children = (
+				17CC22EE1DA6F025006E0084 /* Ivanir.entitlements */,
+				174616741D804C5D00B5F759 /* AmaticSC-Bold.ttf */,
+				174616751D804C5E00B5F759 /* AmaticSC-Regular.ttf */,
+				175D01701D80CE65009FB355 /* Hihihi.m4a */,
+				178E37A31D6BB85100A8BE83 /* AppDelegate.swift */,
+				17090EF41D7F989D00ACDF06 /* Views */,
+				17090EF01D7F8AB100ACDF06 /* ConnectionHelper.swift */,
+				17090EF21D7F908A00ACDF06 /* RiddleViewController.swift */,
+				17090EF71D7F9F2700ACDF06 /* RevealedViewController.swift */,
+				17090EF91D7FAD7E00ACDF06 /* PhotoViewController.swift */,
+				17090EFD1D7FBE3A00ACDF06 /* AudioViewController.swift */,
+				178E37A91D6BB85100A8BE83 /* Main.storyboard */,
+				178E37AC1D6BB85200A8BE83 /* Assets.xcassets */,
+				178E37AE1D6BB85200A8BE83 /* LaunchScreen.storyboard */,
+				178E37B11D6BB85200A8BE83 /* Info.plist */,
+				17AD9E3D1D6CAB5700A9E5CE /* GoogleService-Info.plist */,
+				175D01721D80E442009FB355 /* Ivanir-Bridging-Header.h */,
+			);
+			path = Ivanir;
+			sourceTree = "<group>";
+		};
+		3980F26341BFC7A25477D8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738583CCC9B5C3BE5C0C6B99 /* Pods_Ivanir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B135CEAB9D0629555A725577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B77AB96BB1FDCBB9BB148097 /* Pods-Ivanir.debug.xcconfig */,
+				E2B716C016478EDEAB181142 /* Pods-Ivanir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178E379F1D6BB85100A8BE83 /* Ivanir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178E37B41D6BB85200A8BE83 /* Build configuration list for PBXNativeTarget "Ivanir" */;
+			buildPhases = (
+				091D96199F45CEBCE48FE406 /* [CP] Check Pods Manifest.lock */,
+				178E379C1D6BB85100A8BE83 /* Sources */,
+				178E379D1D6BB85100A8BE83 /* Frameworks */,
+				178E379E1D6BB85100A8BE83 /* Resources */,
+				8763251ACD11B806BCAD2984 /* [CP] Embed Pods Frameworks */,
+				42474360D658ADB9A138B3B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ivanir;
+			productName = Ivanir;
+			productReference = 178E37A01D6BB85100A8BE83 /* Ivanir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178E37981D6BB85100A8BE83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jagni;
+				TargetAttributes = {
+					178E379F1D6BB85100A8BE83 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5FMB4K7553;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 178E379B1D6BB85100A8BE83 /* Build configuration list for PBXProject "Ivanir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178E37971D6BB85100A8BE83;
+			productRefGroup = 178E37A11D6BB85100A8BE83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178E379F1D6BB85100A8BE83 /* Ivanir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178E379E1D6BB85100A8BE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175D01711D80CE65009FB355 /* Hihihi.m4a in Resources */,
+				178E37B01D6BB85200A8BE83 /* LaunchScreen.storyboard in Resources */,
+				174616761D804C5E00B5F759 /* AmaticSC-Bold.ttf in Resources */,
+				174616771D804C5E00B5F759 /* AmaticSC-Regular.ttf in Resources */,
+				17AD9E3E1D6CAB5700A9E5CE /* GoogleService-Info.plist in Resources */,
+				178E37AD1D6BB85200A8BE83 /* Assets.xcassets in Resources */,
+				178E37AB1D6BB85100A8BE83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091D96199F45CEBCE48FE406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42474360D658ADB9A138B3B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ivanir/Pods-Ivanir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8763251ACD11B806BCAD2984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ivanir/Pods-Ivanir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178E379C1D6BB85100A8BE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178E37A41D6BB85100A8BE83 /* AppDelegate.swift in Sources */,
+				17090EF11D7F8AB100ACDF06 /* ConnectionHelper.swift in Sources */,
+				17090EF81D7F9F2700ACDF06 /* RevealedViewController.swift in Sources */,
+				17090EFC1D7FB76C00ACDF06 /* CustomPhotoAlbum.swift in Sources */,
+				17090EF31D7F908A00ACDF06 /* RiddleViewController.swift in Sources */,
+				17090EFE1D7FBE3A00ACDF06 /* AudioViewController.swift in Sources */,
+				17090EFA1D7FAD7E00ACDF06 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		178E37A91D6BB85100A8BE83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178E37AA1D6BB85100A8BE83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178E37AE1D6BB85200A8BE83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178E37AF1D6BB85200A8BE83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178E37B21D6BB85200A8BE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178E37B31D6BB85200A8BE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178E37B51D6BB85200A8BE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77AB96BB1FDCBB9BB148097 /* Pods-Ivanir.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Ivanir/Ivanir.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ivanir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jagni.Ivanir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ivanir/Ivanir-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		178E37B61D6BB85200A8BE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B716C016478EDEAB181142 /* Pods-Ivanir.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Ivanir/Ivanir.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ivanir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jagni.Ivanir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ivanir/Ivanir-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178E379B1D6BB85100A8BE83 /* Build configuration list for PBXProject "Ivanir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178E37B21D6BB85200A8BE83 /* Debug */,
+				178E37B31D6BB85200A8BE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178E37B41D6BB85200A8BE83 /* Build configuration list for PBXNativeTarget "Ivanir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178E37B51D6BB85200A8BE83 /* Debug */,
+				178E37B61D6BB85200A8BE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178E37981D6BB85100A8BE83 /* Project object */;
+}
